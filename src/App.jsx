@@ -13,7 +13,7 @@ import { FridayFixLog } from '@/components/FridayFixLog'
 import { BuildLog } from '@/components/BuildLog'
 import { QuickLinks } from '@/components/QuickLinks'
 
-const PERSONAS = ['All', 'FluentRx', 'BCC', 'Personal', 'Trader']
+const PERSONAS = ['All', 'FluentRx', 'CoderClint', 'ClintTeacher', 'Trader']
 
 export default function App() {
   const [persona, setPersona] = useState('All')
