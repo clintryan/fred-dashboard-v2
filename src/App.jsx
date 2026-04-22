@@ -58,7 +58,7 @@ export default function App() {
               <KpiCards kpis={data.kpis} persona={persona} />
             </div>
             <div>
-              <DailyFocus focus={data.personal.dailyFocus || data.meta.dailyFocus} persona={persona} />
+              <DailyFocus focus={data.personal.dailyFocus || data.meta.dailyFocus} priorities={data.todaysPriorities} persona={persona} />
             </div>
           </section>
 

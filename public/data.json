@@ -2,7 +2,7 @@
   "meta": {
     "owner": "Clint Ryan",
     "lastUpdated": "2026-04-22",
-    "dailyFocus": "Start BCC teaching May 5 — full prep underway",
+    "dailyFocus": "Worksheet Generator + Haiku API",
     "timezone": "Asia/Bangkok",
     "calendarEmbedUrl": "",
     "personas": [
@@ -1254,6 +1254,38 @@
       "label": "Linear",
       "url": "https://linear.app",
       "group": "Planning"
+    }
+  ],
+  "todaysPriorities": [
+    {
+      "id": 1,
+      "label": "Worksheet Generator",
+      "detail": "Minimal seed JSONs + Haiku/Gemini API endpoint in FluentRx",
+      "persona": "fluentrx"
+    },
+    {
+      "id": 2,
+      "label": "Email (Mailmeteor replacement)",
+      "detail": "Get Friday Fix sending sorted — Mailmeteor cancelled",
+      "persona": "fluentrx"
+    },
+    {
+      "id": 3,
+      "label": "BCC Math planning",
+      "detail": "Lesson plan + slides for May 5 start",
+      "persona": "clintteacher"
+    },
+    {
+      "id": 4,
+      "label": "OpenClaw FluentRx channel",
+      "detail": "Admin assistant: emails, reminders, client voice",
+      "persona": "all"
+    },
+    {
+      "id": 5,
+      "label": "FluentRx notifications",
+      "detail": "Cancel cal.com/Ably, wire up native reminders + topic picker",
+      "persona": "fluentrx"
     }
   ]
 }
