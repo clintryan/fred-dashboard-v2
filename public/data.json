@@ -1280,12 +1280,6 @@
       "label": "OpenClaw FluentRx channel",
       "detail": "Admin assistant: emails, reminders, client voice",
       "persona": "all"
-    },
-    {
-      "id": 5,
-      "label": "FluentRx notifications",
-      "detail": "Cancel cal.com/Ably, wire up native reminders + topic picker",
-      "persona": "fluentrx"
     }
   ]
 }
