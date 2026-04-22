@@ -209,6 +209,34 @@
   },
   "buildLog": [
     {
+      "date": "2026-04-22",
+      "persona": "fred",
+      "entry": "FluentRx Closeout + Build-Log Sync Automation",
+      "status": "shipped",
+      "type": "instructions / infra"
+    },
+    {
+      "date": "2026-04-22",
+      "persona": "fred",
+      "entry": "WhatsApp Channel Scoping Rule (Behavioral)",
+      "status": "shipped",
+      "type": "instructions"
+    },
+    {
+      "date": "2026-04-22",
+      "persona": "fred",
+      "entry": "Health Tracking + Priorities Dashboard",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-22",
+      "persona": "fred",
+      "entry": "Git Permissions + MacBook Air Sync Fix",
+      "status": "shipped",
+      "type": "infra / fix"
+    },
+    {
       "date": "2026-04-21",
       "persona": "fred",
       "entry": "Command Workspace Restructure",
@@ -217,37 +245,51 @@
     },
     {
       "date": "2026-04-20",
-      "persona": "coder",
-      "entry": "zshrc oh-my-zsh Fix",
+      "persona": "fluentrx",
+      "entry": "Worksheet View + V3 Prompts Integration",
       "status": "shipped",
       "type": "fix"
     },
     {
       "date": "2026-04-20",
       "persona": "teacher",
-      "entry": "BCC Lesson Slide Template System — Teacher + Student + 5 Interactive Widgets",
-      "status": "shipped",
+      "entry": "BCC Lesson Slide Template System",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-20",
       "persona": "teacher",
-      "entry": "BCC Teacher Dashboard — GitHub Pages Deploy",
+      "entry": "BCC Teacher Dashboard (GitHub Pages)",
+      "status": "in-progress",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-20",
+      "persona": "fred",
+      "entry": "zshrc oh-my-zsh Fix",
       "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-16",
+      "persona": "fluentrx",
+      "entry": "Worksheet Generator V2 Ingest Pipeline",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-16",
       "persona": "fluentrx",
-      "entry": "Session Duration-Based Income Calculation",
-      "status": "shipped",
-      "type": "feature"
+      "entry": "Fix 500 on Talk Business Course Page",
+      "status": "in-progress",
+      "type": "fix"
     },
     {
       "date": "2026-04-16",
       "persona": "coder",
       "entry": "Sprint Methodology + 3 IDE Agent Handoffs",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "infra"
     },
     {
@@ -258,25 +300,32 @@
       "type": "infra"
     },
     {
-      "date": "2026-04-15",
-      "persona": "fred",
-      "entry": "Deploy Gate Rules + Bridge Protocol Hardening",
+      "date": "2026-04-16",
+      "persona": "fluentrx",
+      "entry": "Session Duration-Based Income Calculation",
       "status": "shipped",
-      "type": "infra"
+      "type": "feature"
     },
     {
       "date": "2026-04-15",
       "persona": "fluentrx",
-      "entry": "Late Cancel Bug Fix",
-      "status": "shipped",
+      "entry": "Late Cancel Bug Fix (Carolyn Wu)",
+      "status": "in-progress",
       "type": "fix"
     },
     {
       "date": "2026-04-15",
       "persona": "fluentrx",
       "entry": "Homepage Visual Polish",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "entry": "Student Snapshot + fred:snapshot Rake Task Verified",
+      "status": "shipped",
+      "type": "infra"
     },
     {
       "date": "2026-04-15",
@@ -288,64 +337,64 @@
     {
       "date": "2026-04-15",
       "persona": "fluentrx",
-      "entry": "Student Snapshot + fred:snapshot Rake Task Verified",
+      "entry": "Deploy Gate Rules + Bridge Protocol Hardening",
       "status": "shipped",
-      "type": "infra"
+      "type": "process"
     },
     {
       "date": "2026-04-14",
       "persona": "fluentrx",
       "entry": "Font Unification + Scroll Animation + Card Icons",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-14",
       "persona": "fluentrx",
       "entry": "Nick Onboarded to FluentRx + AT Sync Confirmed",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "ops"
     },
     {
       "date": "2026-04-13",
       "persona": "fluentrx",
       "entry": "Brand Voice + Visual Overhaul: Typography, Copy, Footer, Components",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-13",
       "persona": "fluentrx",
       "entry": "Heroku Deploy Fix + B06 Backfill: v428 Live",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "infra"
     },
     {
       "date": "2026-04-13",
       "persona": "fluentrx",
       "entry": "Course Page Polish: Workplace Situations + Interview Prep",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-13",
       "persona": "fluentrx",
       "entry": "Worksheet HTML Renderer: 16:9 Card Deck + Student Share Link",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-13",
       "persona": "teacher",
       "entry": "BCC Semester 1 Course Plan: Statistics 1 Week-by-Week Scope",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-13",
       "persona": "fluentrx",
       "entry": "Student Learning Graph: Relational Tables for Scores + Vocabulary",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "infra"
     },
     {
@@ -373,7 +422,7 @@
       "date": "2026-04-09",
       "persona": "fluentrx",
       "entry": "Session Report Rubric Assessment & Spider Chart",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
@@ -393,9 +442,9 @@
     {
       "date": "2026-04-09",
       "persona": "fluentrx",
-      "entry": "Marketplace Sync — DB Write Fix + Cowork Skill Retired",
+      "entry": "Marketplace Sync — DB Write Fix + Cowork Skill Updated",
       "status": "shipped",
-      "type": "fix"
+      "type": "fix + infra"
     },
     {
       "date": "2026-04-09",
@@ -408,7 +457,7 @@
       "date": "2026-04-08",
       "persona": "fluentrx",
       "entry": "Interview Prep Mode — Auto-detected Report Tab",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "feature"
     },
     {
@@ -416,76 +465,76 @@
       "persona": "fluentrx",
       "entry": "Marketplace Sync Pipeline Fix + Heroku Scheduler",
       "status": "shipped",
-      "type": "fix"
+      "type": "fix + infra"
     },
     {
       "date": "2026-04-08",
       "persona": "fluentrx",
-      "entry": "Friday Fluency Fix · April 10 — Raise Your Register",
-      "status": "shipped",
+      "entry": "Friday Fluency Fix · April 10 Issue",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-07",
       "persona": "fluentrx",
-      "entry": "Marketplace Intake Skill — AT + Preply Student Onboarding",
-      "status": "shipped",
+      "entry": "Marketplace Intake Skill (AT + Preply Student Onboarding)",
+      "status": "in-progress",
       "type": "automation"
     },
     {
       "date": "2026-04-07",
       "persona": "fluentrx",
-      "entry": "Marketplace Sync System — AmazingTalker + Preply → FluentRx + Cal.com",
-      "status": "shipped",
+      "entry": "Marketplace Sync System (AmazingTalker + Preply → FluentRx + Cal.com)",
+      "status": "in-progress",
       "type": "automation"
-    },
-    {
-      "date": "2026-04-06",
-      "persona": "fluentrx",
-      "entry": "Automated Class Report Pipeline",
-      "status": "shipped",
-      "type": "automation"
-    },
-    {
-      "date": "2026-04-06",
-      "persona": "fluentrx",
-      "entry": "Drive Pipeline On/Off Toggle",
-      "status": "shipped",
-      "type": "infra"
     },
     {
       "date": "2026-04-06",
       "persona": "fluentrx",
       "entry": "Freddy Fluent — Operational Knowledge Base",
-      "status": "shipped",
+      "status": "in-progress",
       "type": "infra"
     },
     {
-      "date": "2026-04-05",
-      "persona": "fred",
-      "entry": "Fred Dashboard — Live on GitHub Pages",
-      "status": "shipped",
-      "type": "feature"
+      "date": "2026-04-06",
+      "persona": "fluentrx",
+      "entry": "Drive Pipeline On/Off Toggle",
+      "status": "in-progress",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-06",
+      "persona": "fluentrx",
+      "entry": "Automated Class Report Pipeline",
+      "status": "in-progress",
+      "type": "automation"
     },
     {
       "date": "2026-04-05",
       "persona": "fluentrx",
       "entry": "Friday Fluency Fix — Welcome Email Sequence",
-      "status": "shipped",
+      "status": "in-progress",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-05",
+      "persona": "fred",
+      "entry": "Fred Dashboard — Live on GitHub Pages",
+      "status": "in-progress",
       "type": "feature"
     },
     {
       "date": "2026-04-01",
       "persona": "fluentrx",
-      "entry": "Session Report Generator — Live",
-      "status": "shipped",
+      "entry": "Worksheet Generator — Live",
+      "status": "in-progress",
       "type": "automation"
     },
     {
       "date": "2026-04-01",
       "persona": "fluentrx",
-      "entry": "Worksheet Generator — Live",
-      "status": "shipped",
+      "entry": "Session Report Generator — Live",
+      "status": "in-progress",
       "type": "automation"
     }
   ],
@@ -714,7 +763,7 @@
       },
       {
         "date": "2026-03-27",
-        "hours": 8.0,
+        "hours": 8,
         "quality": 88
       },
       {
@@ -754,7 +803,7 @@
       },
       {
         "date": "2026-04-04",
-        "hours": 7.0,
+        "hours": 7,
         "quality": 74
       },
       {
@@ -799,7 +848,7 @@
       },
       {
         "date": "2026-04-13",
-        "hours": 8.0,
+        "hours": 8,
         "quality": 88
       },
       {
@@ -985,7 +1034,7 @@
       },
       {
         "date": "2026-04-05",
-        "litres": 2.0
+        "litres": 2
       },
       {
         "date": "2026-04-06",
@@ -1037,7 +1086,7 @@
       },
       {
         "date": "2026-04-18",
-        "litres": 3.0
+        "litres": 3
       },
       {
         "date": "2026-04-19",
