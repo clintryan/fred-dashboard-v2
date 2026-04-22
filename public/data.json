@@ -1,11 +1,16 @@
 {
   "meta": {
     "owner": "Clint Ryan",
-    "lastUpdated": "2026-04-21",
+    "lastUpdated": "2026-04-22",
     "dailyFocus": "Start BCC teaching May 5 — full prep underway",
     "timezone": "Asia/Bangkok",
     "calendarEmbedUrl": "",
-    "personas": ["FluentRx", "CoderClint", "ClintTeacher", "TraderSkinFlint"]
+    "personas": [
+      "FluentRx",
+      "CoderClint",
+      "ClintTeacher",
+      "TraderSkinFlint"
+    ]
   },
   "kpis": [
     {
@@ -51,245 +56,1204 @@
   ],
   "kanban": {
     "todo": [
-      { "id": "newton-rejection", "title": "Send Newton rejection — draft ready, to: brian.d@newton.ac.th, CC: joshua.e@newton.ac.th", "tags": ["must"], "persona": "teacher", "priority": "must" },
-      { "id": "bcc-contract", "title": "Chase BCC contract — signing April 10, 10am, BCC Silom. Contract not received.", "tags": ["must"], "persona": "teacher", "priority": "must" },
-      { "id": "nancy-lin", "title": "Nancy Lin — replied Apr 8. Offered weeknights 18–24 TW time + Sat 09–15 late April. Awaiting slot confirmation.", "tags": ["must"], "persona": "fluentrx", "priority": "must" },
-      { "id": "welcome-seq", "title": "Deploy welcome email sequence — 4 emails drafted, 3 checks before going live", "tags": ["must"], "persona": "fluentrx", "priority": "must" }
+      {
+        "id": "newton-rejection",
+        "title": "Send Newton rejection — draft ready, to: brian.d@newton.ac.th, CC: joshua.e@newton.ac.th",
+        "tags": [
+          "must"
+        ],
+        "persona": "teacher",
+        "priority": "must"
+      },
+      {
+        "id": "bcc-contract",
+        "title": "Chase BCC contract — signing April 10, 10am, BCC Silom. Contract not received.",
+        "tags": [
+          "must"
+        ],
+        "persona": "teacher",
+        "priority": "must"
+      },
+      {
+        "id": "nancy-lin",
+        "title": "Nancy Lin — replied Apr 8. Offered weeknights 18–24 TW time + Sat 09–15 late April. Awaiting slot confirmation.",
+        "tags": [
+          "must"
+        ],
+        "persona": "fluentrx",
+        "priority": "must"
+      },
+      {
+        "id": "welcome-seq",
+        "title": "Deploy welcome email sequence — 4 emails drafted, 3 checks before going live",
+        "tags": [
+          "must"
+        ],
+        "persona": "fluentrx",
+        "priority": "must"
+      }
     ],
     "doing": [
-      { "id": "weekend-sched", "title": "Decide weekend schedule post-May 5 (how many sessions, which days)", "tags": ["should"], "persona": "fluentrx", "priority": "should" },
-      { "id": "price-raise", "title": "Price raise for new students — do alongside rebrand", "tags": ["should"], "persona": "fluentrx", "priority": "should" },
-      { "id": "rebrand", "title": "FluentRx rebrand — brainstorm done, pick direction + domain", "tags": ["should"], "persona": "fluentrx", "priority": "should" },
-      { "id": "italki", "title": "italki profile setup — approved, never configured. Zero-cost acquisition.", "tags": ["should"], "persona": "fluentrx", "priority": "should" },
-      { "id": "fluentrx-down", "title": "Take fluentrx.com down / make private before May 5 (work permit)", "tags": ["should"], "persona": "fluentrx", "priority": "should" },
-      { "id": "stripe-api", "title": "Call Stripe API — verify restricted key, pull April revenue data", "tags": ["should"], "persona": "fred", "priority": "should" }
+      {
+        "id": "weekend-sched",
+        "title": "Decide weekend schedule post-May 5 (how many sessions, which days)",
+        "tags": [
+          "should"
+        ],
+        "persona": "fluentrx",
+        "priority": "should"
+      },
+      {
+        "id": "price-raise",
+        "title": "Price raise for new students — do alongside rebrand",
+        "tags": [
+          "should"
+        ],
+        "persona": "fluentrx",
+        "priority": "should"
+      },
+      {
+        "id": "rebrand",
+        "title": "FluentRx rebrand — brainstorm done, pick direction + domain",
+        "tags": [
+          "should"
+        ],
+        "persona": "fluentrx",
+        "priority": "should"
+      },
+      {
+        "id": "italki",
+        "title": "italki profile setup — approved, never configured. Zero-cost acquisition.",
+        "tags": [
+          "should"
+        ],
+        "persona": "fluentrx",
+        "priority": "should"
+      },
+      {
+        "id": "fluentrx-down",
+        "title": "Take fluentrx.com down / make private before May 5 (work permit)",
+        "tags": [
+          "should"
+        ],
+        "persona": "fluentrx",
+        "priority": "should"
+      },
+      {
+        "id": "stripe-api",
+        "title": "Call Stripe API — verify restricted key, pull April revenue data",
+        "tags": [
+          "should"
+        ],
+        "persona": "fred",
+        "priority": "should"
+      }
     ],
     "done": [],
     "wont": [
-      { "id": "marketplace", "title": "Update AmazingTalker, Preply, italki profiles — stale, wrong brand voice", "tags": ["could"], "persona": "fluentrx", "priority": "could" },
-      { "id": "fiverr", "title": "First Fiverr/Upwork listing — AI workflow automations angle", "tags": ["could"], "persona": "coder", "priority": "could" },
-      { "id": "resumes", "title": "Update all 3 resumes — replace Toronto with Bangkok", "tags": ["could"], "persona": "fred", "priority": "could" },
-      { "id": "crypto-bot", "title": "Crypto bot project — waiting on Paradise's training docs", "tags": ["could"], "persona": "trader", "priority": "could" },
-      { "id": "ai-tutor", "title": "AI tutor agent moonshot (CoderClint × FluentRx crossover)", "tags": ["could"], "persona": "coder", "priority": "could" },
-      { "id": "voice-agent", "title": "Voice agent first build — high potential, never built one", "tags": ["could"], "persona": "coder", "priority": "could" }
+      {
+        "id": "marketplace",
+        "title": "Update AmazingTalker, Preply, italki profiles — stale, wrong brand voice",
+        "tags": [
+          "could"
+        ],
+        "persona": "fluentrx",
+        "priority": "could"
+      },
+      {
+        "id": "fiverr",
+        "title": "First Fiverr/Upwork listing — AI workflow automations angle",
+        "tags": [
+          "could"
+        ],
+        "persona": "coder",
+        "priority": "could"
+      },
+      {
+        "id": "resumes",
+        "title": "Update all 3 resumes — replace Toronto with Bangkok",
+        "tags": [
+          "could"
+        ],
+        "persona": "fred",
+        "priority": "could"
+      },
+      {
+        "id": "crypto-bot",
+        "title": "Crypto bot project — waiting on Paradise's training docs",
+        "tags": [
+          "could"
+        ],
+        "persona": "trader",
+        "priority": "could"
+      },
+      {
+        "id": "ai-tutor",
+        "title": "AI tutor agent moonshot (CoderClint × FluentRx crossover)",
+        "tags": [
+          "could"
+        ],
+        "persona": "coder",
+        "priority": "could"
+      },
+      {
+        "id": "voice-agent",
+        "title": "Voice agent first build — high potential, never built one",
+        "tags": [
+          "could"
+        ],
+        "persona": "coder",
+        "priority": "could"
+      }
     ]
   },
   "buildLog": [
-    { "date": "2026-04-21", "persona": "fred", "entry": "Command Workspace Restructure", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-20", "persona": "coder", "entry": "zshrc oh-my-zsh Fix", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-20", "persona": "teacher", "entry": "BCC Lesson Slide Template System — Teacher + Student + 5 Interactive Widgets", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-20", "persona": "teacher", "entry": "BCC Teacher Dashboard — GitHub Pages Deploy", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-16", "persona": "fluentrx", "entry": "Session Duration-Based Income Calculation", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-16", "persona": "coder", "entry": "Sprint Methodology + 3 IDE Agent Handoffs", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-16", "persona": "coder", "entry": "CoderClint Gmail Mailer: OAuth + send-email.py", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-15", "persona": "fred", "entry": "Deploy Gate Rules + Bridge Protocol Hardening", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-15", "persona": "fluentrx", "entry": "Late Cancel Bug Fix", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-15", "persona": "fluentrx", "entry": "Homepage Visual Polish", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-15", "persona": "fluentrx", "entry": "Marketplace Sync: 12-Hour Booking Window", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-15", "persona": "fluentrx", "entry": "Student Snapshot + fred:snapshot Rake Task Verified", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-14", "persona": "fluentrx", "entry": "Font Unification + Scroll Animation + Card Icons", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-14", "persona": "fluentrx", "entry": "Nick Onboarded to FluentRx + AT Sync Confirmed", "status": "shipped", "type": "ops" },
-    { "date": "2026-04-13", "persona": "fluentrx", "entry": "Brand Voice + Visual Overhaul: Typography, Copy, Footer, Components", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-13", "persona": "fluentrx", "entry": "Heroku Deploy Fix + B06 Backfill: v428 Live", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-13", "persona": "fluentrx", "entry": "Course Page Polish: Workplace Situations + Interview Prep", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-13", "persona": "fluentrx", "entry": "Worksheet HTML Renderer: 16:9 Card Deck + Student Share Link", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-13", "persona": "teacher", "entry": "BCC Semester 1 Course Plan: Statistics 1 Week-by-Week Scope", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-13", "persona": "fluentrx", "entry": "Student Learning Graph: Relational Tables for Scores + Vocabulary", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-12", "persona": "fluentrx", "entry": "Marketing Overhaul: 3 Courses, Clean Brand Voice", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-12", "persona": "fluentrx", "entry": "Fred Snapshot Rake Task", "status": "shipped", "type": "automation" },
-    { "date": "2026-04-11", "persona": "fluentrx", "entry": "Session Report Rubric Assessment & Spider Chart — Merged + Deployed", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-09", "persona": "fluentrx", "entry": "Session Report Rubric Assessment & Spider Chart", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-09", "persona": "fluentrx", "entry": "Report Pipeline Sync: Single Prompt Source + IDE Agent Parity", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-09", "persona": "fluentrx", "entry": "Practice Tab Fix + Claude API Timeout Increase", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-09", "persona": "fluentrx", "entry": "Marketplace Sync — DB Write Fix + Cowork Skill Retired", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-09", "persona": "fluentrx", "entry": "Drive Report Pipeline — Encoding Crash Fix + Renewal Hardening", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-08", "persona": "fluentrx", "entry": "Interview Prep Mode — Auto-detected Report Tab", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-08", "persona": "fluentrx", "entry": "Marketplace Sync Pipeline Fix + Heroku Scheduler", "status": "shipped", "type": "fix" },
-    { "date": "2026-04-08", "persona": "fluentrx", "entry": "Friday Fluency Fix · April 10 — Raise Your Register", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-07", "persona": "fluentrx", "entry": "Marketplace Intake Skill — AT + Preply Student Onboarding", "status": "shipped", "type": "automation" },
-    { "date": "2026-04-07", "persona": "fluentrx", "entry": "Marketplace Sync System — AmazingTalker + Preply → FluentRx + Cal.com", "status": "shipped", "type": "automation" },
-    { "date": "2026-04-06", "persona": "fluentrx", "entry": "Automated Class Report Pipeline", "status": "shipped", "type": "automation" },
-    { "date": "2026-04-06", "persona": "fluentrx", "entry": "Drive Pipeline On/Off Toggle", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-06", "persona": "fluentrx", "entry": "Freddy Fluent — Operational Knowledge Base", "status": "shipped", "type": "infra" },
-    { "date": "2026-04-05", "persona": "fred", "entry": "Fred Dashboard — Live on GitHub Pages", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-05", "persona": "fluentrx", "entry": "Friday Fluency Fix — Welcome Email Sequence", "status": "shipped", "type": "feature" },
-    { "date": "2026-04-01", "persona": "fluentrx", "entry": "Session Report Generator — Live", "status": "shipped", "type": "automation" },
-    { "date": "2026-04-01", "persona": "fluentrx", "entry": "Worksheet Generator — Live", "status": "shipped", "type": "automation" }
+    {
+      "date": "2026-04-21",
+      "persona": "fred",
+      "entry": "Command Workspace Restructure",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-20",
+      "persona": "coder",
+      "entry": "zshrc oh-my-zsh Fix",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-20",
+      "persona": "teacher",
+      "entry": "BCC Lesson Slide Template System — Teacher + Student + 5 Interactive Widgets",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-20",
+      "persona": "teacher",
+      "entry": "BCC Teacher Dashboard — GitHub Pages Deploy",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-16",
+      "persona": "fluentrx",
+      "entry": "Session Duration-Based Income Calculation",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-16",
+      "persona": "coder",
+      "entry": "Sprint Methodology + 3 IDE Agent Handoffs",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-16",
+      "persona": "coder",
+      "entry": "CoderClint Gmail Mailer: OAuth + send-email.py",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fred",
+      "entry": "Deploy Gate Rules + Bridge Protocol Hardening",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "entry": "Late Cancel Bug Fix",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "entry": "Homepage Visual Polish",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "entry": "Marketplace Sync: 12-Hour Booking Window",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "entry": "Student Snapshot + fred:snapshot Rake Task Verified",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-14",
+      "persona": "fluentrx",
+      "entry": "Font Unification + Scroll Animation + Card Icons",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-14",
+      "persona": "fluentrx",
+      "entry": "Nick Onboarded to FluentRx + AT Sync Confirmed",
+      "status": "shipped",
+      "type": "ops"
+    },
+    {
+      "date": "2026-04-13",
+      "persona": "fluentrx",
+      "entry": "Brand Voice + Visual Overhaul: Typography, Copy, Footer, Components",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-13",
+      "persona": "fluentrx",
+      "entry": "Heroku Deploy Fix + B06 Backfill: v428 Live",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-13",
+      "persona": "fluentrx",
+      "entry": "Course Page Polish: Workplace Situations + Interview Prep",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-13",
+      "persona": "fluentrx",
+      "entry": "Worksheet HTML Renderer: 16:9 Card Deck + Student Share Link",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-13",
+      "persona": "teacher",
+      "entry": "BCC Semester 1 Course Plan: Statistics 1 Week-by-Week Scope",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-13",
+      "persona": "fluentrx",
+      "entry": "Student Learning Graph: Relational Tables for Scores + Vocabulary",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-12",
+      "persona": "fluentrx",
+      "entry": "Marketing Overhaul: 3 Courses, Clean Brand Voice",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-12",
+      "persona": "fluentrx",
+      "entry": "Fred Snapshot Rake Task",
+      "status": "shipped",
+      "type": "automation"
+    },
+    {
+      "date": "2026-04-11",
+      "persona": "fluentrx",
+      "entry": "Session Report Rubric Assessment & Spider Chart — Merged + Deployed",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-09",
+      "persona": "fluentrx",
+      "entry": "Session Report Rubric Assessment & Spider Chart",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-09",
+      "persona": "fluentrx",
+      "entry": "Report Pipeline Sync: Single Prompt Source + IDE Agent Parity",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-09",
+      "persona": "fluentrx",
+      "entry": "Practice Tab Fix + Claude API Timeout Increase",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-09",
+      "persona": "fluentrx",
+      "entry": "Marketplace Sync — DB Write Fix + Cowork Skill Retired",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-09",
+      "persona": "fluentrx",
+      "entry": "Drive Report Pipeline — Encoding Crash Fix + Renewal Hardening",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-08",
+      "persona": "fluentrx",
+      "entry": "Interview Prep Mode — Auto-detected Report Tab",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-08",
+      "persona": "fluentrx",
+      "entry": "Marketplace Sync Pipeline Fix + Heroku Scheduler",
+      "status": "shipped",
+      "type": "fix"
+    },
+    {
+      "date": "2026-04-08",
+      "persona": "fluentrx",
+      "entry": "Friday Fluency Fix · April 10 — Raise Your Register",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-07",
+      "persona": "fluentrx",
+      "entry": "Marketplace Intake Skill — AT + Preply Student Onboarding",
+      "status": "shipped",
+      "type": "automation"
+    },
+    {
+      "date": "2026-04-07",
+      "persona": "fluentrx",
+      "entry": "Marketplace Sync System — AmazingTalker + Preply → FluentRx + Cal.com",
+      "status": "shipped",
+      "type": "automation"
+    },
+    {
+      "date": "2026-04-06",
+      "persona": "fluentrx",
+      "entry": "Automated Class Report Pipeline",
+      "status": "shipped",
+      "type": "automation"
+    },
+    {
+      "date": "2026-04-06",
+      "persona": "fluentrx",
+      "entry": "Drive Pipeline On/Off Toggle",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-06",
+      "persona": "fluentrx",
+      "entry": "Freddy Fluent — Operational Knowledge Base",
+      "status": "shipped",
+      "type": "infra"
+    },
+    {
+      "date": "2026-04-05",
+      "persona": "fred",
+      "entry": "Fred Dashboard — Live on GitHub Pages",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-05",
+      "persona": "fluentrx",
+      "entry": "Friday Fluency Fix — Welcome Email Sequence",
+      "status": "shipped",
+      "type": "feature"
+    },
+    {
+      "date": "2026-04-01",
+      "persona": "fluentrx",
+      "entry": "Session Report Generator — Live",
+      "status": "shipped",
+      "type": "automation"
+    },
+    {
+      "date": "2026-04-01",
+      "persona": "fluentrx",
+      "entry": "Worksheet Generator — Live",
+      "status": "shipped",
+      "type": "automation"
+    }
   ],
   "roadmap": [
-    { "id": "1A", "milestone": "Report Rubric Data", "persona": "fluentrx", "due": "Apr 2026", "status": "active", "notes": "Extend session report JSON with 6 rubric dimensions. Add spider chart + next-session objectives to report HTML. Data accumulates silently — no change to student output yet." },
-    { "id": "1B", "milestone": "Split Dynamic Report into Partials", "persona": "fluentrx", "due": "Apr 2026", "status": "queued", "notes": "_dynamic_report.html.erb is 853 lines / 19k tokens — exceeds IDE agent read limit. Split into ~10 partials so agents can work on individual sections cleanly." },
-    { "id": "2A", "milestone": "Worksheet Section Checkboxes", "persona": "fluentrx", "due": "May 2026", "status": "queued", "notes": "45 sections across pre/in/post-class. LLM generates full JSON in one call. Teacher toggles sections on/off. Display config stored separately — no re-generation needed." },
-    { "id": "2B", "milestone": "Student Profile Integration", "persona": "fluentrx", "due": "May 2026", "status": "queued", "notes": "JSON profile per student (job, industry, goals, weaknesses, vocab mastered). Injected into worksheet generation prompt for personalised scenarios and questions." },
-    { "id": "2C", "milestone": "Worksheet Level Differentiation", "persona": "fluentrx", "due": "May 2026", "status": "queued", "notes": "Scaffold toggle (B1/B2/C1). One worksheet generated, rendered with appropriate support layer. Parallel full versions as future premium feature." },
-    { "id": "3", "milestone": "Student Learning Graph", "persona": "fluentrx", "due": "Jun 2026", "status": "planned", "notes": "Three new DB tables: session_assessments, learned_vocabulary, student_progress_snapshots. Background job extracts rubric data + vocab from every session report." },
-    { "id": "4", "milestone": "Flashcards", "persona": "fluentrx", "due": "Jul 2026", "status": "planned", "notes": "Spaced repetition from learned_vocabulary. Cards carry context sentence from original session. Mobile-first web. Better than Anki because it's personalised to the student's own classes." },
-    { "id": "5", "milestone": "Periodic Progress Review", "persona": "fluentrx", "due": "Aug 2026", "status": "planned", "notes": "Agent looks at last N sessions → structured progress report with spider chart trends + concrete transcript evidence. On-demand or scheduled. Premium add-on." },
-    { "id": "6", "milestone": "Teacher Input Step in Reports", "persona": "fluentrx", "due": "Sep 2026", "status": "planned", "notes": "Teacher reviews AI draft → confirms/edits teacher-rated fields (pronunciation, engagement) → approves → report posts. New UI step before student notification." },
-    { "id": "7", "milestone": "Teacher Tools SaaS", "persona": "coder", "due": "Post-May 2026", "status": "vision", "notes": "Worksheet generator (+ eventually full suite) sold to other ESL teachers. Entry price ~$15-29/mo. Built inside FluentRx Rails app — multi-tenant by teacher. Beat LinguaHouse on speed, customisation, price, personalisation." },
-    { "id": "8", "milestone": "AI Teacher Assistant", "persona": "fluentrx", "due": "2026–2027", "status": "vision", "notes": "Agent with full access to student learning graph. Suggests session focus, flags plateaus, generates targeted exercises, supports async student practice. Amplifies the teacher — doesn't replace them." }
+    {
+      "id": "1A",
+      "milestone": "Report Rubric Data",
+      "persona": "fluentrx",
+      "due": "Apr 2026",
+      "status": "active",
+      "notes": "Extend session report JSON with 6 rubric dimensions. Add spider chart + next-session objectives to report HTML. Data accumulates silently — no change to student output yet."
+    },
+    {
+      "id": "1B",
+      "milestone": "Split Dynamic Report into Partials",
+      "persona": "fluentrx",
+      "due": "Apr 2026",
+      "status": "queued",
+      "notes": "_dynamic_report.html.erb is 853 lines / 19k tokens — exceeds IDE agent read limit. Split into ~10 partials so agents can work on individual sections cleanly."
+    },
+    {
+      "id": "2A",
+      "milestone": "Worksheet Section Checkboxes",
+      "persona": "fluentrx",
+      "due": "May 2026",
+      "status": "queued",
+      "notes": "45 sections across pre/in/post-class. LLM generates full JSON in one call. Teacher toggles sections on/off. Display config stored separately — no re-generation needed."
+    },
+    {
+      "id": "2B",
+      "milestone": "Student Profile Integration",
+      "persona": "fluentrx",
+      "due": "May 2026",
+      "status": "queued",
+      "notes": "JSON profile per student (job, industry, goals, weaknesses, vocab mastered). Injected into worksheet generation prompt for personalised scenarios and questions."
+    },
+    {
+      "id": "2C",
+      "milestone": "Worksheet Level Differentiation",
+      "persona": "fluentrx",
+      "due": "May 2026",
+      "status": "queued",
+      "notes": "Scaffold toggle (B1/B2/C1). One worksheet generated, rendered with appropriate support layer. Parallel full versions as future premium feature."
+    },
+    {
+      "id": "3",
+      "milestone": "Student Learning Graph",
+      "persona": "fluentrx",
+      "due": "Jun 2026",
+      "status": "planned",
+      "notes": "Three new DB tables: session_assessments, learned_vocabulary, student_progress_snapshots. Background job extracts rubric data + vocab from every session report."
+    },
+    {
+      "id": "4",
+      "milestone": "Flashcards",
+      "persona": "fluentrx",
+      "due": "Jul 2026",
+      "status": "planned",
+      "notes": "Spaced repetition from learned_vocabulary. Cards carry context sentence from original session. Mobile-first web. Better than Anki because it's personalised to the student's own classes."
+    },
+    {
+      "id": "5",
+      "milestone": "Periodic Progress Review",
+      "persona": "fluentrx",
+      "due": "Aug 2026",
+      "status": "planned",
+      "notes": "Agent looks at last N sessions → structured progress report with spider chart trends + concrete transcript evidence. On-demand or scheduled. Premium add-on."
+    },
+    {
+      "id": "6",
+      "milestone": "Teacher Input Step in Reports",
+      "persona": "fluentrx",
+      "due": "Sep 2026",
+      "status": "planned",
+      "notes": "Teacher reviews AI draft → confirms/edits teacher-rated fields (pronunciation, engagement) → approves → report posts. New UI step before student notification."
+    },
+    {
+      "id": "7",
+      "milestone": "Teacher Tools SaaS",
+      "persona": "coder",
+      "due": "Post-May 2026",
+      "status": "vision",
+      "notes": "Worksheet generator (+ eventually full suite) sold to other ESL teachers. Entry price ~$15-29/mo. Built inside FluentRx Rails app — multi-tenant by teacher. Beat LinguaHouse on speed, customisation, price, personalisation."
+    },
+    {
+      "id": "8",
+      "milestone": "AI Teacher Assistant",
+      "persona": "fluentrx",
+      "due": "2026–2027",
+      "status": "vision",
+      "notes": "Agent with full access to student learning graph. Suggests session focus, flags plateaus, generates targeted exercises, supports async student practice. Amplifies the teacher — doesn't replace them."
+    }
   ],
   "fridayFixLog": [
-    { "date": "2026-04-15", "persona": "fluentrx", "fix": "Coupon standardised: FRIDAYFIX = 10% off. Retired FRIDAYFIX20. Reason: avoid coupon fatigue before 5-year anniversary promo." },
-    { "date": "2026-04-15", "persona": "fluentrx", "fix": "April 17 TBS card populated: TBS-119 · The Business of Prediction Markets (auto-fetched from Lesson Library sheet row 2)." },
-    { "date": "2026-04-15", "persona": "fluentrx", "fix": "April 17 — deploy + send via Mail Meteor. Clint's action." },
-    { "date": "2026-04-15", "persona": "fluentrx", "fix": "Rails endpoint for TBS episode data: GET /api/v1/friday_fix_episode — removes need for Chrome auth to read sheet." },
-    { "date": "2026-04-10", "persona": "fluentrx", "fix": "April 10 — sent via Mail Meteor. Variant A (platform cut)." },
-    { "date": "2026-04-08", "persona": "fluentrx", "fix": "Format rules locked: .bq single-line corrections, text logo, TBS thumbnail unclickable, no academic terms." },
-    { "date": "2026-04-08", "persona": "fluentrx", "fix": "FridayFix.gs — Apps Script sender to replace Mail Meteor. Tabled until April 17 is shipped." },
-    { "date": "2026-04-07", "persona": "fluentrx", "fix": "Welcome email sequence (4 emails, Day 0/3/7/12). Draft in _context.md. Needs FRIDAYFIX coupon in app. High priority." }
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "fix": "Coupon standardised: FRIDAYFIX = 10% off. Retired FRIDAYFIX20. Reason: avoid coupon fatigue before 5-year anniversary promo."
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "fix": "April 17 TBS card populated: TBS-119 · The Business of Prediction Markets (auto-fetched from Lesson Library sheet row 2)."
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "fix": "April 17 — deploy + send via Mail Meteor. Clint's action."
+    },
+    {
+      "date": "2026-04-15",
+      "persona": "fluentrx",
+      "fix": "Rails endpoint for TBS episode data: GET /api/v1/friday_fix_episode — removes need for Chrome auth to read sheet."
+    },
+    {
+      "date": "2026-04-10",
+      "persona": "fluentrx",
+      "fix": "April 10 — sent via Mail Meteor. Variant A (platform cut)."
+    },
+    {
+      "date": "2026-04-08",
+      "persona": "fluentrx",
+      "fix": "Format rules locked: .bq single-line corrections, text logo, TBS thumbnail unclickable, no academic terms."
+    },
+    {
+      "date": "2026-04-08",
+      "persona": "fluentrx",
+      "fix": "FridayFix.gs — Apps Script sender to replace Mail Meteor. Tabled until April 17 is shipped."
+    },
+    {
+      "date": "2026-04-07",
+      "persona": "fluentrx",
+      "fix": "Welcome email sequence (4 emails, Day 0/3/7/12). Draft in _context.md. Needs FRIDAYFIX coupon in app. High priority."
+    }
   ],
   "socialQueue": [
-    { "id": "s1", "platform": "Twitter", "persona": "fluentrx", "status": "draft", "scheduled": "2026-04-10", "draft": "Swapping \"but\" for \"however\" is the same word, same meaning.\n\nBut one belongs in a business email and the other belongs in a text message.\n\nThis week's Friday Fix: the 4 connector swaps that instantly raise your register.\n\nFree: fluentrx.com/friday-fix/raise-your-register-connectors" },
-    { "id": "s2", "platform": "Twitter", "persona": "fluentrx", "status": "draft", "scheduled": "2026-04-10", "draft": "Know when to use \"consequently\" vs \"therefore\"?\n\nMost advanced learners don't. (It's not obvious.)\n\nFree practice sheet this week — 3 exercises, answer key included.\n\nfluentrx.com/practice/raise-your-register-connectors" },
-    { "id": "s3", "platform": "Twitter", "persona": "teacher", "status": "draft", "scheduled": "2026-04-10", "draft": "One thing I notice in almost every advanced student's writing:\n\nThey use \"but\" and \"so\" where a native speaker would use \"however\" and \"consequently.\"\n\nIt's not wrong. It just sounds casual. And sometimes that matters a lot.\n\nNew Friday Fix on this 👇\nfluentrx.com/friday-fix/raise-your-register-connectors" },
-    { "id": "s4", "platform": "Twitter", "persona": "teacher", "status": "draft", "scheduled": "2026-04-10", "draft": "Quick question for advanced English learners:\n\nDo you know the punctuation rule for formal connectors?\n\n(Most people get this wrong even when they know the words.)\n\nAnswer in this week's free email: fluentrx.com/friday-fix/raise-your-register-connectors" }
+    {
+      "id": "s1",
+      "platform": "Twitter",
+      "persona": "fluentrx",
+      "status": "draft",
+      "scheduled": "2026-04-10",
+      "draft": "Swapping \"but\" for \"however\" is the same word, same meaning.\n\nBut one belongs in a business email and the other belongs in a text message.\n\nThis week's Friday Fix: the 4 connector swaps that instantly raise your register.\n\nFree: fluentrx.com/friday-fix/raise-your-register-connectors"
+    },
+    {
+      "id": "s2",
+      "platform": "Twitter",
+      "persona": "fluentrx",
+      "status": "draft",
+      "scheduled": "2026-04-10",
+      "draft": "Know when to use \"consequently\" vs \"therefore\"?\n\nMost advanced learners don't. (It's not obvious.)\n\nFree practice sheet this week — 3 exercises, answer key included.\n\nfluentrx.com/practice/raise-your-register-connectors"
+    },
+    {
+      "id": "s3",
+      "platform": "Twitter",
+      "persona": "teacher",
+      "status": "draft",
+      "scheduled": "2026-04-10",
+      "draft": "One thing I notice in almost every advanced student's writing:\n\nThey use \"but\" and \"so\" where a native speaker would use \"however\" and \"consequently.\"\n\nIt's not wrong. It just sounds casual. And sometimes that matters a lot.\n\nNew Friday Fix on this 👇\nfluentrx.com/friday-fix/raise-your-register-connectors"
+    },
+    {
+      "id": "s4",
+      "platform": "Twitter",
+      "persona": "teacher",
+      "status": "draft",
+      "scheduled": "2026-04-10",
+      "draft": "Quick question for advanced English learners:\n\nDo you know the punctuation rule for formal connectors?\n\n(Most people get this wrong even when they know the words.)\n\nAnswer in this week's free email: fluentrx.com/friday-fix/raise-your-register-connectors"
+    }
   ],
   "activeAgents": [
-    { "id": "a1", "name": "worksheet-generator", "persona": "fluentrx", "status": "idle", "lastRun": "2026-04-20T09:14:00Z", "description": "YouTube → V2 worksheet" },
-    { "id": "a2", "name": "class-report", "persona": "fluentrx", "status": "idle", "lastRun": "2026-04-21T02:30:00Z", "description": "Session transcript → student report" },
-    { "id": "a3", "name": "build-log", "persona": "fred", "status": "running", "lastRun": "2026-04-21T13:37:00Z", "description": "Capture ship events to build log" },
-    { "id": "a4", "name": "bcc-intake", "persona": "teacher", "status": "draft", "lastRun": null, "description": "Intake form → client brief (WIP)" }
+    {
+      "id": "a1",
+      "name": "worksheet-generator",
+      "persona": "fluentrx",
+      "status": "idle",
+      "lastRun": "2026-04-20T09:14:00Z",
+      "description": "YouTube → V2 worksheet"
+    },
+    {
+      "id": "a2",
+      "name": "class-report",
+      "persona": "fluentrx",
+      "status": "idle",
+      "lastRun": "2026-04-21T02:30:00Z",
+      "description": "Session transcript → student report"
+    },
+    {
+      "id": "a3",
+      "name": "build-log",
+      "persona": "fred",
+      "status": "running",
+      "lastRun": "2026-04-21T13:37:00Z",
+      "description": "Capture ship events to build log"
+    },
+    {
+      "id": "a4",
+      "name": "bcc-intake",
+      "persona": "teacher",
+      "status": "draft",
+      "lastRun": null,
+      "description": "Intake form → client brief (WIP)"
+    }
   ],
   "personal": {
     "dailyFocus": "Start BCC teaching May 5 — full prep underway",
     "sleep": [
-      { "date": "2026-03-23", "hours": 6.8, "quality": 72 },
-      { "date": "2026-03-24", "hours": 7.1, "quality": 76 },
-      { "date": "2026-03-25", "hours": 5.9, "quality": 61 },
-      { "date": "2026-03-26", "hours": 7.4, "quality": 80 },
-      { "date": "2026-03-27", "hours": 8.0, "quality": 88 },
-      { "date": "2026-03-28", "hours": 6.2, "quality": 64 },
-      { "date": "2026-03-29", "hours": 7.8, "quality": 85 },
-      { "date": "2026-03-30", "hours": 7.5, "quality": 82 },
-      { "date": "2026-03-31", "hours": 6.5, "quality": 70 },
-      { "date": "2026-04-01", "hours": 7.2, "quality": 78 },
-      { "date": "2026-04-02", "hours": 7.6, "quality": 84 },
-      { "date": "2026-04-03", "hours": 8.1, "quality": 90 },
-      { "date": "2026-04-04", "hours": 7.0, "quality": 74 },
-      { "date": "2026-04-05", "hours": 6.4, "quality": 66 },
-      { "date": "2026-04-06", "hours": 7.3, "quality": 79 },
-      { "date": "2026-04-07", "hours": 7.7, "quality": 83 },
-      { "date": "2026-04-08", "hours": 6.9, "quality": 73 },
-      { "date": "2026-04-09", "hours": 8.2, "quality": 91 },
-      { "date": "2026-04-10", "hours": 7.4, "quality": 80 },
-      { "date": "2026-04-11", "hours": 5.7, "quality": 58 },
-      { "date": "2026-04-12", "hours": 7.9, "quality": 86 },
-      { "date": "2026-04-13", "hours": 8.0, "quality": 88 },
-      { "date": "2026-04-14", "hours": 7.2, "quality": 77 },
-      { "date": "2026-04-15", "hours": 6.6, "quality": 69 },
-      { "date": "2026-04-16", "hours": 7.5, "quality": 81 },
-      { "date": "2026-04-17", "hours": 7.8, "quality": 85 },
-      { "date": "2026-04-18", "hours": 8.3, "quality": 92 },
-      { "date": "2026-04-19", "hours": 7.1, "quality": 75 },
-      { "date": "2026-04-20", "hours": 7.6, "quality": 82 },
-      { "date": "2026-04-21", "hours": 7.4, "quality": 80 }
+      {
+        "date": "2026-03-23",
+        "hours": 6.8,
+        "quality": 72
+      },
+      {
+        "date": "2026-03-24",
+        "hours": 7.1,
+        "quality": 76
+      },
+      {
+        "date": "2026-03-25",
+        "hours": 5.9,
+        "quality": 61
+      },
+      {
+        "date": "2026-03-26",
+        "hours": 7.4,
+        "quality": 80
+      },
+      {
+        "date": "2026-03-27",
+        "hours": 8.0,
+        "quality": 88
+      },
+      {
+        "date": "2026-03-28",
+        "hours": 6.2,
+        "quality": 64
+      },
+      {
+        "date": "2026-03-29",
+        "hours": 7.8,
+        "quality": 85
+      },
+      {
+        "date": "2026-03-30",
+        "hours": 7.5,
+        "quality": 82
+      },
+      {
+        "date": "2026-03-31",
+        "hours": 6.5,
+        "quality": 70
+      },
+      {
+        "date": "2026-04-01",
+        "hours": 7.2,
+        "quality": 78
+      },
+      {
+        "date": "2026-04-02",
+        "hours": 7.6,
+        "quality": 84
+      },
+      {
+        "date": "2026-04-03",
+        "hours": 8.1,
+        "quality": 90
+      },
+      {
+        "date": "2026-04-04",
+        "hours": 7.0,
+        "quality": 74
+      },
+      {
+        "date": "2026-04-05",
+        "hours": 6.4,
+        "quality": 66
+      },
+      {
+        "date": "2026-04-06",
+        "hours": 7.3,
+        "quality": 79
+      },
+      {
+        "date": "2026-04-07",
+        "hours": 7.7,
+        "quality": 83
+      },
+      {
+        "date": "2026-04-08",
+        "hours": 6.9,
+        "quality": 73
+      },
+      {
+        "date": "2026-04-09",
+        "hours": 8.2,
+        "quality": 91
+      },
+      {
+        "date": "2026-04-10",
+        "hours": 7.4,
+        "quality": 80
+      },
+      {
+        "date": "2026-04-11",
+        "hours": 5.7,
+        "quality": 58
+      },
+      {
+        "date": "2026-04-12",
+        "hours": 7.9,
+        "quality": 86
+      },
+      {
+        "date": "2026-04-13",
+        "hours": 8.0,
+        "quality": 88
+      },
+      {
+        "date": "2026-04-14",
+        "hours": 7.2,
+        "quality": 77
+      },
+      {
+        "date": "2026-04-15",
+        "hours": 6.6,
+        "quality": 69
+      },
+      {
+        "date": "2026-04-16",
+        "hours": 7.5,
+        "quality": 81
+      },
+      {
+        "date": "2026-04-17",
+        "hours": 7.8,
+        "quality": 85
+      },
+      {
+        "date": "2026-04-18",
+        "hours": 8.3,
+        "quality": 92
+      },
+      {
+        "date": "2026-04-19",
+        "hours": 7.1,
+        "quality": 75
+      },
+      {
+        "date": "2026-04-20",
+        "hours": 7.6,
+        "quality": 82
+      },
+      {
+        "date": "2026-04-21",
+        "hours": 7.4,
+        "quality": 80
+      }
     ],
     "alcohol": [
-      { "date": "2026-03-23", "drinks": 3 },
-      { "date": "2026-03-24", "drinks": 0 },
-      { "date": "2026-03-25", "drinks": 4 },
-      { "date": "2026-03-26", "drinks": 0 },
-      { "date": "2026-03-27", "drinks": 2 },
-      { "date": "2026-03-28", "drinks": 5 },
-      { "date": "2026-03-29", "drinks": 0 },
-      { "date": "2026-03-30", "drinks": 0 },
-      { "date": "2026-03-31", "drinks": 0 },
-      { "date": "2026-04-01", "drinks": 2 },
-      { "date": "2026-04-02", "drinks": 0 },
-      { "date": "2026-04-03", "drinks": 3 },
-      { "date": "2026-04-04", "drinks": 0 },
-      { "date": "2026-04-05", "drinks": 4 },
-      { "date": "2026-04-06", "drinks": 0 },
-      { "date": "2026-04-07", "drinks": 1 },
-      { "date": "2026-04-08", "drinks": 0 },
-      { "date": "2026-04-09", "drinks": 2 },
-      { "date": "2026-04-10", "drinks": 0 },
-      { "date": "2026-04-11", "drinks": 0 },
-      { "date": "2026-04-12", "drinks": 0 },
-      { "date": "2026-04-13", "drinks": 0 },
-      { "date": "2026-04-14", "drinks": 0 },
-      { "date": "2026-04-15", "drinks": 0 },
-      { "date": "2026-04-16", "drinks": 0 },
-      { "date": "2026-04-17", "drinks": 0 },
-      { "date": "2026-04-18", "drinks": 0 },
-      { "date": "2026-04-19", "drinks": 0 },
-      { "date": "2026-04-20", "drinks": 0 },
-      { "date": "2026-04-21", "drinks": 0 }
+      {
+        "date": "2026-03-23",
+        "drinks": 3
+      },
+      {
+        "date": "2026-03-24",
+        "drinks": 0
+      },
+      {
+        "date": "2026-03-25",
+        "drinks": 4
+      },
+      {
+        "date": "2026-03-26",
+        "drinks": 0
+      },
+      {
+        "date": "2026-03-27",
+        "drinks": 2
+      },
+      {
+        "date": "2026-03-28",
+        "drinks": 5
+      },
+      {
+        "date": "2026-03-29",
+        "drinks": 0
+      },
+      {
+        "date": "2026-03-30",
+        "drinks": 0
+      },
+      {
+        "date": "2026-03-31",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-01",
+        "drinks": 2
+      },
+      {
+        "date": "2026-04-02",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-03",
+        "drinks": 3
+      },
+      {
+        "date": "2026-04-04",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-05",
+        "drinks": 4
+      },
+      {
+        "date": "2026-04-06",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-07",
+        "drinks": 1
+      },
+      {
+        "date": "2026-04-08",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-09",
+        "drinks": 2
+      },
+      {
+        "date": "2026-04-10",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-11",
+        "drinks": 0
+      },
+      {
+        "date": "2026-04-21",
+        "drinks": 3,
+        "note": "2/3 pint Chang + 2 White Claw seltzers (4%)"
+      }
     ],
     "hydration": [
-      { "date": "2026-03-23", "litres": 2.1 },
-      { "date": "2026-03-24", "litres": 2.4 },
-      { "date": "2026-03-25", "litres": 1.8 },
-      { "date": "2026-03-26", "litres": 2.6 },
-      { "date": "2026-03-27", "litres": 2.2 },
-      { "date": "2026-03-28", "litres": 1.5 },
-      { "date": "2026-03-29", "litres": 2.7 },
-      { "date": "2026-03-30", "litres": 2.5 },
-      { "date": "2026-03-31", "litres": 2.3 },
-      { "date": "2026-04-01", "litres": 2.4 },
-      { "date": "2026-04-02", "litres": 2.6 },
-      { "date": "2026-04-03", "litres": 2.1 },
-      { "date": "2026-04-04", "litres": 2.8 },
-      { "date": "2026-04-05", "litres": 2.0 },
-      { "date": "2026-04-06", "litres": 2.5 },
-      { "date": "2026-04-07", "litres": 2.7 },
-      { "date": "2026-04-08", "litres": 2.4 },
-      { "date": "2026-04-09", "litres": 2.2 },
-      { "date": "2026-04-10", "litres": 2.6 },
-      { "date": "2026-04-11", "litres": 2.3 },
-      { "date": "2026-04-12", "litres": 2.8 },
-      { "date": "2026-04-13", "litres": 2.9 },
-      { "date": "2026-04-14", "litres": 2.7 },
-      { "date": "2026-04-15", "litres": 2.5 },
-      { "date": "2026-04-16", "litres": 2.6 },
-      { "date": "2026-04-17", "litres": 2.8 },
-      { "date": "2026-04-18", "litres": 3.0 },
-      { "date": "2026-04-19", "litres": 2.7 },
-      { "date": "2026-04-20", "litres": 2.6 },
-      { "date": "2026-04-21", "litres": 2.5 }
+      {
+        "date": "2026-03-23",
+        "litres": 2.1
+      },
+      {
+        "date": "2026-03-24",
+        "litres": 2.4
+      },
+      {
+        "date": "2026-03-25",
+        "litres": 1.8
+      },
+      {
+        "date": "2026-03-26",
+        "litres": 2.6
+      },
+      {
+        "date": "2026-03-27",
+        "litres": 2.2
+      },
+      {
+        "date": "2026-03-28",
+        "litres": 1.5
+      },
+      {
+        "date": "2026-03-29",
+        "litres": 2.7
+      },
+      {
+        "date": "2026-03-30",
+        "litres": 2.5
+      },
+      {
+        "date": "2026-03-31",
+        "litres": 2.3
+      },
+      {
+        "date": "2026-04-01",
+        "litres": 2.4
+      },
+      {
+        "date": "2026-04-02",
+        "litres": 2.6
+      },
+      {
+        "date": "2026-04-03",
+        "litres": 2.1
+      },
+      {
+        "date": "2026-04-04",
+        "litres": 2.8
+      },
+      {
+        "date": "2026-04-05",
+        "litres": 2.0
+      },
+      {
+        "date": "2026-04-06",
+        "litres": 2.5
+      },
+      {
+        "date": "2026-04-07",
+        "litres": 2.7
+      },
+      {
+        "date": "2026-04-08",
+        "litres": 2.4
+      },
+      {
+        "date": "2026-04-09",
+        "litres": 2.2
+      },
+      {
+        "date": "2026-04-10",
+        "litres": 2.6
+      },
+      {
+        "date": "2026-04-11",
+        "litres": 2.3
+      },
+      {
+        "date": "2026-04-12",
+        "litres": 2.8
+      },
+      {
+        "date": "2026-04-13",
+        "litres": 2.9
+      },
+      {
+        "date": "2026-04-14",
+        "litres": 2.7
+      },
+      {
+        "date": "2026-04-15",
+        "litres": 2.5
+      },
+      {
+        "date": "2026-04-16",
+        "litres": 2.6
+      },
+      {
+        "date": "2026-04-17",
+        "litres": 2.8
+      },
+      {
+        "date": "2026-04-18",
+        "litres": 3.0
+      },
+      {
+        "date": "2026-04-19",
+        "litres": 2.7
+      },
+      {
+        "date": "2026-04-20",
+        "litres": 2.6
+      },
+      {
+        "date": "2026-04-21",
+        "litres": 2.5
+      }
     ],
     "fitness": [
-      { "date": "2026-03-23", "active": true, "type": "walk" },
-      { "date": "2026-03-24", "active": true, "type": "gym" },
-      { "date": "2026-03-25", "active": false, "type": "rest" },
-      { "date": "2026-03-26", "active": true, "type": "walk" },
-      { "date": "2026-03-27", "active": true, "type": "walk" },
-      { "date": "2026-03-28", "active": false, "type": "rest" },
-      { "date": "2026-03-29", "active": true, "type": "gym" },
-      { "date": "2026-03-30", "active": true, "type": "walk" },
-      { "date": "2026-03-31", "active": true, "type": "walk" },
-      { "date": "2026-04-01", "active": true, "type": "gym" },
-      { "date": "2026-04-02", "active": false, "type": "rest" },
-      { "date": "2026-04-03", "active": true, "type": "walk" },
-      { "date": "2026-04-04", "active": true, "type": "walk" },
-      { "date": "2026-04-05", "active": true, "type": "gym" },
-      { "date": "2026-04-06", "active": true, "type": "walk" },
-      { "date": "2026-04-07", "active": false, "type": "rest" },
-      { "date": "2026-04-08", "active": true, "type": "walk" },
-      { "date": "2026-04-09", "active": true, "type": "gym" },
-      { "date": "2026-04-10", "active": true, "type": "walk" },
-      { "date": "2026-04-11", "active": false, "type": "rest" },
-      { "date": "2026-04-12", "active": true, "type": "walk" },
-      { "date": "2026-04-13", "active": true, "type": "gym" },
-      { "date": "2026-04-14", "active": true, "type": "walk" },
-      { "date": "2026-04-15", "active": true, "type": "walk" },
-      { "date": "2026-04-16", "active": true, "type": "gym" },
-      { "date": "2026-04-17", "active": false, "type": "rest" },
-      { "date": "2026-04-18", "active": true, "type": "walk" },
-      { "date": "2026-04-19", "active": true, "type": "walk" },
-      { "date": "2026-04-20", "active": true, "type": "gym" },
-      { "date": "2026-04-21", "active": true, "type": "walk" }
+      {
+        "date": "2026-03-23",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-03-24",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-03-25",
+        "active": false,
+        "type": "rest"
+      },
+      {
+        "date": "2026-03-26",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-03-27",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-03-28",
+        "active": false,
+        "type": "rest"
+      },
+      {
+        "date": "2026-03-29",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-03-30",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-03-31",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-01",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-04-02",
+        "active": false,
+        "type": "rest"
+      },
+      {
+        "date": "2026-04-03",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-04",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-05",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-04-06",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-07",
+        "active": false,
+        "type": "rest"
+      },
+      {
+        "date": "2026-04-08",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-09",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-04-10",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-11",
+        "active": false,
+        "type": "rest"
+      },
+      {
+        "date": "2026-04-12",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-13",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-04-14",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-15",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-16",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-04-17",
+        "active": false,
+        "type": "rest"
+      },
+      {
+        "date": "2026-04-18",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-19",
+        "active": true,
+        "type": "walk"
+      },
+      {
+        "date": "2026-04-20",
+        "active": true,
+        "type": "gym"
+      },
+      {
+        "date": "2026-04-21",
+        "active": true,
+        "type": "walk"
+      }
+    ],
+    "fasting": [
+      {
+        "date": "2026-04-21",
+        "firstMeal": "10:00",
+        "lastMeal": "20:00",
+        "windowHours": 10,
+        "targetHours": 6
+      }
     ]
   },
   "quickLinks": [
-    { "label": "Heroku", "url": "https://dashboard.heroku.com", "group": "Ops" },
-    { "label": "Stripe", "url": "https://dashboard.stripe.com", "group": "Ops" },
-    { "label": "GitHub", "url": "https://github.com", "group": "Dev" },
-    { "label": "Cal.com", "url": "https://cal.com", "group": "Scheduling" },
-    { "label": "FluentRx app", "url": "https://app.fluentrx.com", "group": "Product" },
-    { "label": "BCC site", "url": "https://businesscoachchiangmai.com", "group": "Product" },
-    { "label": "Gmail", "url": "https://mail.google.com", "group": "Comms" },
-    { "label": "Linear", "url": "https://linear.app", "group": "Planning" }
+    {
+      "label": "Heroku",
+      "url": "https://dashboard.heroku.com",
+      "group": "Ops"
+    },
+    {
+      "label": "Stripe",
+      "url": "https://dashboard.stripe.com",
+      "group": "Ops"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com",
+      "group": "Dev"
+    },
+    {
+      "label": "Cal.com",
+      "url": "https://cal.com",
+      "group": "Scheduling"
+    },
+    {
+      "label": "FluentRx app",
+      "url": "https://app.fluentrx.com",
+      "group": "Product"
+    },
+    {
+      "label": "BCC site",
+      "url": "https://businesscoachchiangmai.com",
+      "group": "Product"
+    },
+    {
+      "label": "Gmail",
+      "url": "https://mail.google.com",
+      "group": "Comms"
+    },
+    {
+      "label": "Linear",
+      "url": "https://linear.app",
+      "group": "Planning"
+    }
   ]
 }

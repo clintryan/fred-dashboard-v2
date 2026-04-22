@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { ContributionGrid } from './ContributionGrid'
 import { SleepBars } from './SleepBars'
-import { Moon, Wine, Dumbbell, Droplets, Flame } from 'lucide-react'
+import { Moon, Wine, Dumbbell, Droplets, Flame, Timer } from 'lucide-react'
 
 function currentStreak(entries) {
   // Walk backwards from the most recent entry while drinks === 0.
@@ -41,6 +41,10 @@ export function Personal({ personal, persona }) {
   const avgSleep = avg(personal.sleep.slice(-7), 'hours')
   const avgHydration = avg(personal.hydration.slice(-7), 'litres')
   const last7Fitness = personal.fitness.slice(-7).filter((f) => f.active).length
+  const fasting = personal.fasting || []
+  const avgFastingWindow = fasting.length
+    ? fasting.reduce((s, e) => s + e.windowHours, 0) / fasting.length
+    : null
 
   return (
     <Card>
@@ -54,6 +58,11 @@ export function Personal({ personal, persona }) {
           <Badge variant="outline" className="gap-1"><Moon className="h-3 w-3" />{avgSleep.toFixed(1)}h avg sleep</Badge>
           <Badge variant="outline" className="gap-1"><Droplets className="h-3 w-3" />{avgHydration.toFixed(1)}L avg water</Badge>
           <Badge variant="outline" className="gap-1"><Dumbbell className="h-3 w-3" />{last7Fitness}/7 active</Badge>
+          {avgFastingWindow !== null && (
+            <Badge variant={avgFastingWindow <= 6 ? 'success' : 'outline'} className="gap-1">
+              <Timer className="h-3 w-3" />{avgFastingWindow.toFixed(1)}h avg eating window
+            </Badge>
+          )}
         </div>
       </CardHeader>
       <CardContent className="space-y-6">
@@ -150,6 +159,40 @@ export function Personal({ personal, persona }) {
             })}
           </div>
         </div>
+
+        {fasting.length > 0 && (
+          <>
+            <Separator />
+            <div>
+              <div className="mb-3 flex items-center gap-2">
+                <Timer className="h-4 w-4 text-muted-foreground" />
+                <span className="text-sm font-medium">Fasting windows</span>
+                <span className="ml-auto text-xs text-muted-foreground">Target: ≤6h eating window</span>
+              </div>
+              <div className="space-y-2">
+                {fasting.slice(-14).map((e) => {
+                  const pct = Math.min(100, (e.windowHours / 16) * 100)
+                  const onTarget = e.windowHours <= e.targetHours
+                  const tone = onTarget ? 'bg-emerald-500/60' : e.windowHours <= 8 ? 'bg-amber-500/60' : 'bg-rose-500/60'
+                  return (
+                    <div key={e.date} className="flex items-center gap-3 text-xs">
+                      <span className="w-20 shrink-0 text-muted-foreground">{e.date.slice(5)}</span>
+                      <div className="relative h-4 flex-1 overflow-hidden rounded-sm bg-muted">
+                        <div className={`h-full rounded-sm ${tone}`} style={{ width: `${pct}%` }} />
+                      </div>
+                      <span className={`w-12 text-right ${onTarget ? 'text-emerald-500' : 'text-muted-foreground'}`}>
+                        {e.windowHours}h
+                      </span>
+                      <span className="w-20 text-right text-muted-foreground">
+                        {e.firstMeal}–{e.lastMeal}
+                      </span>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          </>
+        )}
       </CardContent>
     </Card>
   )
